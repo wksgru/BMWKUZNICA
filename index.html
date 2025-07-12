@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -19,6 +18,10 @@
       padding: 20px;
       text-align: center;
     }
+    header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
     section {
       padding: 20px;
       max-width: 800px;
@@ -34,11 +37,17 @@
       text-align: center;
       padding: 10px;
     }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+    }
   </style>
 </head>
 <body>
 
 <header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg" alt="Logo BMW">
   <h1>BMW Serwis</h1>
   <p>Twój specjalistyczny warsztat BMW</p>
 </header>
@@ -46,12 +55,29 @@
 <section>
   <h2>Nasze Usługi</h2>
   <ul>
-    <li>Diagnostyka komputerowa BMW</li>
+<li>Diagnostyka komputerowa BMW</li>
     <li>Serwis olejowy i przeglądy</li>
     <li>Naprawy mechaniczne i elektryczne</li>
     <li>Kodowanie i aktualizacje</li>
   </ul>
 
   <h2>Dane kontaktowe</h2>
-  <p><strong>Adres:</strong> Kuźnica Ligocka 62 48-317</p>
-  <p><strong>Telefon:</strong> 513 014 690</p>
+  <p><strong>Adres:</strong> Kuźnica Ligocka 62, 48-317 Polska</p>
+  <p><strong>Telefon:</strong> 123 456 789</p>
+  <p><strong>Email:</strong> kontakt@bmwserwis.pl</p>
+  <p><strong>Godziny otwarcia:</strong> Pon–Pt: 8:00–17:00</p>
+
+  <h2>Mapa lokalizacji</h2>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.3912284749243!2d17.90148107666169!3d50.193050971525934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47101bcd95dfc6e7%3A0x6c5e7e65f8b1309!2sKu%C5%BAnica%20Ligocka%2062%2C%2048-317%20Ku%C5%BAnica%20Ligocka!5e0!3m2!1spl!2spl!4v1720786896496!5m2!1spl!2spl" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+<footer>
+  © 2025 BMW Serwis. Wszelkie prawa zastrzeżone.
+</footer>
+
+</body>
+</html>
+```
