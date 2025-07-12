@@ -1,0 +1,57 @@
+```html
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BMW Serwis – Specjalistyczny Warsztat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1c1c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+    }
+    h2 {
+      color: #0070bb;
+    }
+    footer {
+      background: #1c1c1c;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>BMW Serwis</h1>
+  <p>Twój specjalistyczny warsztat BMW</p>
+</header>
+
+<section>
+  <h2>Nasze Usługi</h2>
+  <ul>
+    <li>Diagnostyka komputerowa BMW</li>
+    <li>Serwis olejowy i przeglądy</li>
+    <li>Naprawy mechaniczne i elektryczne</li>
+    <li>Kodowanie i aktualizacje</li>
+  </ul>
+
+  <h2>Dane kontaktowe</h2>
+  <p><strong>Adres:</strong> Ligocka 62 48-317</p>
+  <p><strong>Telefon:</strong> 513 014 690</p>
